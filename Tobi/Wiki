@@ -1,0 +1,14 @@
+- Get Start
+
+-Object Creation
+
+-Functions and Callback Handler (including the term “Pyramid of Doom”)
+
+-Promise (including error handling)
+
+-The await/async statement
+
+-Providing a simple REST-based interface (GET and POST) with Express
+-Using the package Axios for consuming a REST-based interface. (Remark: here,
+ you are asked for implementing examples for consuming the interface of
+ OrangeHRM and OpenCRX (use the SEPP installations, only)).
