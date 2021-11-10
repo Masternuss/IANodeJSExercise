@@ -22,6 +22,7 @@ class Salesman{
     Department(){
         return this.department;
     }
+
     info(){
         return `${this.id} ${this.firstname} ${this.lastname} ${this.department}`;
     }
