@@ -1,10 +1,10 @@
-function processData (callback) {
-    fetchData(function (err, data) {
-        if (err) {
-            console.log("An error has occurred. Abort everything!");
-            return callback(err);
-        }
-        data += 1;
-        callback(data);
-    });
+function display(displaythis) {
+    document.getElementsById("demo").innerHTML = displaythis;
 }
+
+function add (a,b) {
+    let sum = a + b;
+    display(sum);
+}
+
+add(5,5);
